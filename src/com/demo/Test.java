@@ -13,6 +13,6 @@ public class Test {
 		al.add("Ram");
 		al.add("Shyam");
 		
-		System.out.println(al);
+		al.stream().forEach(x->System.out.println(x));
 	}
 }
