@@ -12,7 +12,7 @@ public class HashSetDemo {
 		hashSet.add(50);
 		hashSet.add(75);
 		
-		System.out.println(hashSet);
+		hashSet.stream().forEach(x->System.out.println(x));
 	}
 	
 	
