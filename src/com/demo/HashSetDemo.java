@@ -12,8 +12,8 @@ public class HashSetDemo {
 		hashSet.add(50);
 		hashSet.add(75);
 		
+
 		hashSet.stream().forEach(x->System.out.println(x));
-	}
 	
-	
+	}	
 }
