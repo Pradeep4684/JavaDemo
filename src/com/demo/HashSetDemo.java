@@ -12,7 +12,9 @@ public class HashSetDemo {
 		hashSet.add(50);
 		hashSet.add(75);
 		
-		System.out.println(hashSet);
+		for(Integer i : hashSet){
+			System.out.println(i);
+		}
 	}
 	
 	
